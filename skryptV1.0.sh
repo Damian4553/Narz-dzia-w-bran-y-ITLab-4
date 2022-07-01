@@ -18,7 +18,7 @@ fi
 
 if [ $option="--logs" ]
 then
-	for((i=1;$i<$howmany;$i++);do
+	for((i=1;$i<$howmany;$i++));do
 		echo 'plik${i}.txt skrypt.sh ${cdate}' >> plik${i}.txt
 	done
 fi
