@@ -34,4 +34,5 @@ then
 	echo --date -> wyświetlna aktulana date
 	echo --logs -> tworzy 100 plikow txt chyba ze po spacji poda sie liczbe to wtedyt tyle ile wynosci ta liczba
 	echo --help -> wyswietla mozliwe opcje
+	echo --error -> to samo co --loogs tylko plik i folder nazywa sie error
 fi
