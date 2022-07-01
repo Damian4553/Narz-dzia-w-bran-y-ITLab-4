@@ -22,6 +22,12 @@ then
 		echo 'plik${i}.txt skrypt.sh ${cdate}' >> log${i}/log${i}.txt
 	done
 fi
+if [ $option=="--error" || $option=="-e"]
+then
+	for((i=1;$i<$howmany;$i++));do
+		echo 'plik${i}.txt skrypt.sh ${cdate}' >> error${i}/errore${i}.txt
+	done
+fi
 
 if [ $option=="--help" || $option=="-h"]
 then
