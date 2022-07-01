@@ -19,7 +19,7 @@ fi
 if [ $option=="--logs" || $option=="-l"]
 then
 	for((i=1;$i<$howmany;$i++));do
-		echo 'plik${i}.txt skrypt.sh ${cdate}' >> plik${i}.txt
+		echo 'plik${i}.txt skrypt.sh ${cdate}' >> log${i}/log${i}.txt
 	done
 fi
 
